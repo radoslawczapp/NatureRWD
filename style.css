@@ -371,7 +371,65 @@ footer{
 
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link{
-        padding-right: .5rem;
-        padding-left: .5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 992px){
+    .navbar-light .navbar-toggler{
+        background: #ffffff;
+        border-radius: 0;
+    }
+    .banner{
+        min-height: 100vh;
+        padding: 100px 0;
+    }
+    .contentBox h1,
+    .sec2 h2{
+        font-size: 2rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .sec1{
+        pading 20px 0;
+    }
+    .headerText h2{
+        font-size: 2rem;
+    }
+    .blog{
+        padding: 20px 0;
+    }
+    .blogspot .imgBx{
+        height: 200px;
+    }
+    .contact{
+        padding: 20px 0;
+    }
+    .contact .form-control{
+        height: 40px;
+        border-bottom: 1px solid #ffffff;
+    }
+    .btnD1{
+        padding: 10px 40px;
+        margin-top: 10px;
+    }
+    footer{
+        background: #000000;
+        padding: 0 0 20px;
+    }
+    .sci li{
+        list-style: none;
+    }
+    .sci li a{
+        color: #777777;
+        font-size: 3rem;
+        transition: .5s;
+    }
+    .sec2{
+        height: auto;
+        padding: 40px 0;
     }
 }
